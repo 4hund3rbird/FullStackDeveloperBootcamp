@@ -1,0 +1,9 @@
+- line equation plotter
+- x+y=10
+- then the graph will plot the equation  
+- list of known components
+    1.UI
+    2.a graph table
+    3.equation analyzer
+    4.Zoom
+    

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>This is html forms</h1>
+
+    <!--html form are input fields for any website.
+        it can be any thing form email to search things etc
+        it has some arrtibutes one of which is action 
+        action determines the location of input data from the form and sends it to the 
+        designated server address relative to the current address
+        in the following case it is c:file address/engine/input data
+    
+    
+        input: it is for taking input from the user. it has arrributes like type which declares
+            type of the input and place holder
+
+            type:declares type of the input.
+
+                radio:it creates a radio button.
+                    all radio buttons should be connected by a same name 
+                    each individual radion input should be given a value for server to send
+                    file:///C:/engine?email=sad%40gmail.com&username=asdas&password=sad&dec=on&size=L
+               
+                checkbox:it is normal checkbox
+                    in checkbox one or more fields can be selected
+                    to make it checked before checked argument should be added
+
+            placeholder:used for placeholder text
+
+            name: it is used in  input to add value pair to the data we want to send
+                it can be anything in the data
+                it all of our form data to the url requests in for of get requests
+                like file:///C:/engine?email=df%40gmail.com&username=sdfsdf&password=89745&dec=on
+        
+        label: it is for labeling the input for this to work for arrribute has to be
+            initiated with the same id from the input
+        
+
+        button: it is the comman way to add a button
+            when a button is created inside the form tags it will submit the form anyway
+            to add anothe functionalities to a button inside the form we have to declare
+            <button type=button>this is button</button>
+        
+            another way to make a button is 
+            <input type="submit" value="click me!"
+            this works only for form and it submits the form value enters text inside the 
+            button
+
+        select: it is used for selecting elements from a dropdowm menu
+            it comes with another container called options for the options of the menu
+            <select name=dish id=dish>
+                <option value="fried rice">fried rice</option>
+            </select>
+
+        textarea: it is used for multiline inputs 
+            can be declared as
+            <textarea id="name" rows="2" cols="4" name="full name" placeholder="type here">
+        
+        validations can be created by adding a required attribute
+        -->
+
+            
+
+        
+
+    <form action="/engine">
+       <div>
+        <label for="email">Enter email here==></label>
+        <input type="text" placeholder="email" id="email" name="email">
+       </div>
+       <div>
+            <label for="username">Enter username here==></label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </div>
+        <div>
+            <label for="password">Enter password here==></label>
+            <input id="password" type="password" placeholder="password" name="password">
+       </div>
+       <div>
+            <label for="dec">Are you sure?</label>
+            <input id="dec" type="checkbox" name="dec">
+       </div>
+
+
+       <p>
+        <label for="s">S</label>
+        <input type="radio" id="s" name="size" value="S">
+        <label for="m">M</label>
+        <input type="radio" id="m" name="size" value="M">
+        <label for="l">L</label>
+        <input type="radio" id="l" name="size" value="L">
+       </p>
+       <p>
+        <select name="shirt type" id="shirt">
+            <option value="nothing" selected>Please select t-shirt type</option>
+            <option value="full sleeve">Full sleeve</option>
+            <option value="half sleeve">Half sleeve</option>
+            <option value="chinese neck">Chinese neck</option>
+
+        </select>
+        <label for="shirt">T-shirt</label>
+       </p>
+       <p>
+        <label for="mention">Enter full address here.</label>
+        <br>
+        <textarea name="special" id="mention" cols="30" rows="10" placeholder="type here"></textarea>
+       </p>
+
+       <label for="submit">This will not submit the form</label>
+       <button id="submit" type="button">submit</button>
+
+       <input type="submit" value="This is from input">
+    </form>
+    
+    <label for="out">This will not submit the form as it is outside of the form</label>
+    <button id="out">submit</button>
+
+    <form action="https://www.google.co.in/search">
+        <h1>Google Search</h1>
+        <input type="text" name="q" placeholder="Search here">
+        <button>search</button>
+
+    </form>
+    <form action="https://www.youtube.com/results">
+        <h1>Youtube</h1>
+        <input type="text" name="search_query" placeholder="Search here">
+        <button>&#128269;</button>
+    </form>
+        
+
+
+    
+</body>
+</html>

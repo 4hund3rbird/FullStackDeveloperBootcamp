@@ -1,0 +1,89 @@
+        h1{
+            border: 1px solid darkolivegreen;
+            width: 80%;
+            margin: auto;
+            /* height: 2vh; */
+            color: darkolivegreen;
+            background-color: gainsboro;
+            text-align: center;
+        }
+        a{
+            color: black;
+            height: 50px;
+            background-color: white;
+            text-decoration: underline;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        body{
+            background-image: url('https://wallpapers.com/images/hd/elden-ring-legacy-dungeon-b1bkxhfv6ljyypui.jpg');
+        }
+
+        .container{
+            width: 70%;
+            height: 60vh;
+            padding: 20px;
+            margin: 40px auto;
+            background-color: gainsboro;
+            display: flex;
+            justify-content: center;
+
+        }
+        /* .bio{
+            width: 70%;
+            /* height: 60vh; */
+            /* padding: 20px; */
+            /* margin: 10px auto; */
+        /* } */ 
+        
+        h5{
+            border: 1px solid darkolivegreen;
+            font-size: 2em;
+            width: 80%;
+            margin: auto;
+            /* height: 2vh; */
+            color: darkolivegreen;
+            background-color: gainsboro;
+            text-align: center;
+        }
+        h4{
+            border: 1px solid darkolivegreen;
+            /* font-size: 2em; */
+            width: 80%;
+            margin: auto;
+            font-style: italic;
+            /* height: 2vh; */
+            color: darkolivegreen;
+            background-color: gainsboro;
+            text-align: center;
+        }
+
+        span{
+            display: inline-block;
+            width: 60%;
+            height: 400px;
+            border: 1px solid darkolivegreen;
+            background-color: black;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 30px auto;
+        }
+
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: darkolivegreen;
+            color: gainsboro;
+            text-align: center;
+          }
+
+          

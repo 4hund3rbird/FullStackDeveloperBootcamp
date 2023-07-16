@@ -1,0 +1,19 @@
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+
+}
+body{
+    background-color: lightgreen;
+}
+.pokemon img {
+    display: block;
+    
+}
+
+h1{
+    font-size: 3em;
+    color: crimson;
+    text-decoration: underline;
+}

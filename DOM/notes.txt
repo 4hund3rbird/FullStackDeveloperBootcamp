@@ -1,0 +1,25 @@
+DOM - <Document Object Model> ----------------------------------------------------------
+
+DOM is the way javascript interacts with webpage
+Every element on webpage is as a Object which we can interact with javascript
+
+
+Document:
+    Document is a object which is created by browser which contains attributes like
+    html information;
+
+Selecting dom elements:
+1 select -2 Manipulate
+
+document.getElementById('ID'):
+getElementByTagName:
+getElementByClassName;
+
+queryselector------------------------------------------>
+it gives us the first mathch
+css style element name is used 
+
+cosnt ant=document.querySelector('#asdfsdf'/'.bob'/'p')
+
+querySelectorAll()
+it gives us collection of selected elements

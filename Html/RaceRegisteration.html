@@ -1,0 +1,72 @@
+<!--file:///C:/Users/Aniket/Desktop/Full%20stack%20developer/RaceRegisteration.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registeration</title>
+</head>
+<body>
+    
+    <form action="/race">
+        <div>
+            <h1>Race Registeration!</h1>
+        </div>
+        <div>
+            <span>
+                <label for="first">First name:</label>
+                <input type="text" name="first_name" id="first" placeholder="enter your first name" required>
+            </span>
+            <span>
+                <label for="last">Last name:</label>
+                <input type="text" name="last_name" id="last" placeholder="enter your last name" required>
+            </span>
+        </div>
+        <div>
+            <p>Select a Race:</p>
+            <p>
+                <div>
+                    <label for="free">Free run 5k</label>
+                    <input type="radio" name="race" id="free" checked>
+                </div>
+                <div>
+                    <label for="half">Half Marathon</label>
+                    <input type="radio" name="race" id="half">
+                </div>
+                <div>
+                    <label for="full">Full Marathon</label>
+                    <input type="radio" name="race" id="full">
+                </div>
+                
+            </p>
+        </div>
+
+        <div>
+            <span>
+                <label for="user">Username:</label>
+                <input type="text" name="username" id="user" placeholder="Username"  required>
+            </span>
+            <span>
+                <label for="pass">Password:</label>
+                <input type="password" name="Password" id="pass" placeholder="Password" required>
+            </span>
+        </div>
+        <br>
+        <div>
+            <label for="agegroup">Select age-group</label>
+            <select name="agegroup" id="agegroup">
+                <option value="under 18">under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-45">30-45</option>
+                <option value="above 45">above 45</option>
+            </select>
+        </div>
+        <div>
+            <button>Register!</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

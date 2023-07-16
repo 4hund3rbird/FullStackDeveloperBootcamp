@@ -1,0 +1,36 @@
+/* *{
+    color:darkslateblue
+} */
+
+body{
+    background-color: #f72585;
+}
+
+h1,h2
+{
+    color: #3a0ca3;
+}
+
+button
+{
+    color:#4cc9f0;
+    background-color: #4361ee;
+}
+#signup{
+    background-color: #3a0ca3;
+    color: white;
+}
+span{
+    color:#3a0ca3;
+}
+.page{
+    color:white;
+    background-color: red;
+}
+footer a{
+    text-decoration: none;
+}
+
+.post a::before{
+    content:"@";
+}

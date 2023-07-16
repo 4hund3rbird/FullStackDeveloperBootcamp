@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <canvas id="canvas"></canvas> -->
+    <!-- <img src="shadow_dog.png" alt=""> -->
+    <canvas style="height: 600px;width: 600px;border: 1px solid black;"></canvas>
+
+    <script>
+        const canva=document.getElementsByTagName('canvas')[0];
+        console.log(canva)
+        const ctx=canva.getContext('2d');
+        console.dir(ctx);
+        const img=new Image();
+        sprite_width=575;
+        sprite_height=523;
+        img.src='shadow_dog.png';
+        ctx.canvas.width=600;
+        ctx.canvas.height=600;
+        
+    //     img.onload = function() {
+    // canvas.width = img.width;
+    // canvas.height = img.height;
+    // ctx.drawImage(img, 0, 0);
+    // };
+        let i=0;
+        let j=0;
+        let gameframe=0;
+        let staggerframe=9;
+        let maxframe=6
+        function animate(){
+            ctx.clearRect(0,0,600,600);
+            ctx.drawImage(img,i*sprite_width,j*sprite_height,sprite_width,sprite_height,0,0,600,600);
+            requestAnimationFrame(animate);
+            if(gameframe%staggerframe==0){
+                if(i<maxframe)i++;
+                else i=0;
+            }
+            
+            gameframe++;
+        }
+
+        // animate();
+    </script>
+</body>
+</html>

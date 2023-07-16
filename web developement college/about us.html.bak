@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head style="background-color=black">
+		<title>
+		Emma Watson fanpage
+		</title>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	</head>
+	
+	<body >
+	
+	<div class="container-fluid" style="background-color:black;">
+	
+	
+	<div class="container-fluid">
+	
+			<div class="col-md-12">
+		 <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  <div class="container-fluid">
+		<h1 style="color:white;">Emma Watson Fanpage</h1>
+	</div>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Emma Watson</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="C:\Users\D_IBM_COMP_45\Desktop\Zeal website dev using bootstrap\index.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">movies
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Harry Potter :Philosopher's Stone</a></li>
+          <li><a href="#">Harry Potter :Chamber of Secrets</a></li>
+          <li><a href="#">Harry Potter :Prisoner of Azkaban</a></li>
+		  <li><a href="#">Harry Potter :Goblet of Fire</a></li>
+		  <li><a href="#">Harry Potter :Order of Phoenix</a></li>
+		  <li><a href="#">Harry Potter :Half-Blood Prince</a></li>
+		  <li><a href="#">Harry Potter :Deathly Hallows part I</a></li>
+		  <li><a href="#">Harry Potter :Deathly Hallows part II</a></li>
+        </ul>
+      </li>
+      <li><a href="#"> Images</a></li>
+      <li><a href="#">about us!</a></li>
+    </ul>
+	
+	
+	
+  </div>
+  
+<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10427369.1926124!2d-3.6767576063216234!3d50.3526719730591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876402f2fe350ad%3A0xa43f20856ba6c5!2sWarner%20Bros.%20Studios%20Leavesden!5e0!3m2!1sen!2sin!4v1637573533925!5m2!1sen!2sin" width="1720" height="720" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+	
+	
+  
+</div>
+</nav>
+
+<div class="col-md-8">
+<marquee direction="left" style ="height:30px"><h4 style="color:red;">I love emma watson</h4></marquee></div>
+
+</div>  
+		 </div>
+	
+
+	</div>
+		 	
+		 
+	
+	
+	<div class="row"><center><b style="color:white; background-color:black;">Designed and developed by ANIKET</b></center></div>
+	
+	
+	</div>
+
+
+	
+	</body>
+
+
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
+    <title><%= tag.toUpperCase() %> </title>
+</head>
+<body>
+   
+    <h1><%= bio.tag %> </h1>
+
+
+    <span style="background-image: url(<%=bio.url%>);"></span>
+    <div class="bio">
+        <h5>
+            <%= bio.bio %> 
+        </h5>
+        <h4>
+            <%= bio.name %> 
+        </h4>
+    </div>
+</body>
+
+<script>
+        
+</script>
+<%- include('partials/footer.ejs') %> 
+</html>

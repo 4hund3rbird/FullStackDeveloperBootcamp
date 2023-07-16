@@ -1,0 +1,476 @@
+/* Reset for css */
+/* *****************************************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* *****************************************************************************************/
+
+body{
+	background-color:white;
+}
+li,span{
+    display: inline-block;
+}
+a{
+	text-decoration:none;
+	color: black;
+	font-family: 'Segoe UI';
+}
+li{
+	margin:10px 7px;
+	font-size: 1.3em;
+
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    border: 1px	;
+    padding:1em;
+	margin:1em 0 0 0;
+    height: 2em;
+    width: 90%;
+	border-radius: 20px 20px 0 0;
+	background-color: white;
+	box-shadow: 0 0 2px rgb(158, 158, 158);
+
+
+}
+
+main{
+	width:100%;
+	display: flex ;
+	justify-content: center;
+}
+
+section{
+	width: 90%;
+	border: 1px;
+	margin:2px 0 0 0;
+	padding: 1em;
+	background-color: white;
+	height: 5750px;
+	box-shadow: 0 0 2px rgb(158, 158, 158);
+
+}
+.nav-buttons{
+    float: right;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 46.4px;
+	
+}
+
+
+.nav-buttons a{
+	
+	height: 30px;
+	color: black;
+	font-family: 'Segoe UI';
+	font-size: 1.3em;
+	text-decoration: underline;
+	margin: 10px 10px;
+}
+
+#blue-button{
+	color: blue !important;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.menu{
+	height: 2%;
+	padding: 10px;
+	
+
+}
+.menu a{
+	margin: 0px 20px 0px 15px;
+	font-weight: 600;
+
+}
+
+#about{
+	color: #ff764d !important;
+}
+.logoimg{
+		padding: 2%;
+		height: 500px;
+		margin: auto;
+		width: 1000px;
+		background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+		display: flex;
+		justify-content: center;
+		
+
+}
+
+img{
+	height: 600px;
+	width: 100%;
+}
+h1{
+	font-size: 150px;
+	font-family: 'Segoe UI';
+	color: white;
+	margin: auto;
+	color: #ff764d !important;
+
+}
+
+.moto{
+	height: 300px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+p{
+	margin: auto;
+	width: 45%;
+	font-family: 'Segoe UI';
+	padding: 10px;
+	font-size: 1.4em;
+	word-spacing: 5px;
+	font-weight: 500;
+	
+	
+}
+
+p a{
+	color: #ff764d;
+}
+
+.image-pattern{
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.col{
+	height: 90vh;
+	width: 50%;
+}
+
+.col.right{
+	background-color: #fbffa7;
+}
+
+.right-img{
+	height: 50vh;
+	width: 80%;
+	margin: 20vh auto;
+	background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+	
+}
+
+.left-corner{
+	height: 90vh;
+	width: 20%;
+	float: right;
+	background-color: #fbffa7;
+}
+
+.left-img{
+	position: absolute;
+	height: 70vh;
+	width: 35%;
+	top: 1200px;
+	left: 227px;
+	background:url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+}
+
+.image-pattern2{
+	height: 1100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.col1{
+	width: 50%;
+	height: 1100px;
+}
+
+.col1.left{
+	background-color: #b6ffc0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.left-imgi{
+	width: 60%;
+	height: 300px;
+	margin: auto;
+	background-size: cover;
+}
+
+.left-imgi.i1{
+	background-image: url('https://images.unsplash.com/photo-1554415707-c1426270e0da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1lZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+}
+
+.left-imgi.i2{
+	background-image: url('https://media.istockphoto.com/photos/diverse-employees-on-online-conference-video-call-on-tv-screen-in-picture-id1333390966?b=1&k=20&m=1333390966&s=170667a&w=0&h=YLSgqNjIJLo20KGhfFubDcfBt_qbj4OJIiwHgPg8jx8=');
+}
+
+.right-corner{
+	width: 40%;
+	height: 1100px;
+	float: left;
+	background-color: #b6ffc0;
+}
+
+.right-imgi-i1{
+	width: 40%;
+	height: 600px;
+	float :right;
+	top: 2355px;
+	position: absolute;
+	background-image: url('https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1lZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+}
+
+.image-pattern3{
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.col2{
+	width: 50%;
+	height: 90vh;
+}
+
+.col2-left-corner{
+	width: 60%;
+	height: 90vh;
+	background-color: #d5b3ff;
+	float: right;
+}
+.col2-right-corner{
+	width: 60%;
+	height: 90vh;
+	background-color: #d5b3ff;
+	float: left;
+}
+
+.left-imgi-i3{
+	height: 40vh;
+	width: 25%;
+	position: absolute;
+	left: 15%;
+	top: 3760px;
+	background-image: url('https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uZmVyZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+}
+.right-imgi-i3{
+	height: 60vh;
+	width: 25%;
+	position: absolute;
+	right: 15%;
+	top: 3680px;
+	background-image: url('https://images.unsplash.com/photo-1612359383347-245649cbb9d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGxlY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+
+}
+
+.image-pattern4{
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.col3{
+	width: 50%;
+	height: 70vh;
+}
+
+.left-imgi-i4{
+	width: 70%;
+	height: 70vh;
+	float: right;
+	background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+}
+
+.right-imgi-i4{
+	width: 70%;
+	height: 70vh;
+	float: left;
+	background-color: #b1c5ff;
+}
+
+.moto2{
+	width: 70%;
+	height: 30vh;
+	font-family: 'Segoe UI';
+	font-size: x-large;
+	font-weight: bold;
+	margin: 20vh auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#anc{
+	color: #0000ff;
+}
+
+.foot{
+	width: 100%;
+	height: 90vh;
+	margin-top: 200px;
+	background-color: aliceblue;
+}
+
+
+.footheader{
+	width: 80%;
+	margin: 50px auto;
+	
+}
+h2{
+	color: black;
+	font-size: 50px;
+	font-weight: 500;
+	font-family: 'Segoe UI';
+	
+
+}
+
+.footmain{
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+
+}
+
+.col4{
+	width: calc(100%/3);
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#form{
+	width: 55%;
+}
+
+.ci1{
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.ci2{
+	height: 170px;
+}
+.ci3{
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.row11{
+	height: 40px;
+	width: 100%;
+}
+.row11.top{
+	height: 110px;
+}
+.row33{
+	height: 60px;
+	width: 100%;
+}
+.row33.top{
+	height: 90px;
+}
+
+
+.row332{
+	height: 60px;
+	width: 100%;
+}
+
+#bottom1 li{
+	line-height: normal;
+	word-spacing: none;
+	font-size: 18px !important;
+	margin:5px 10px;
+	display: block;
+	font-weight: 500;
+
+}
+
+.logo img{
+	height: 40px;
+	width: 40px;
+}
+
+.inputfield1{
+	height: 30px;
+	width: 60%;
+	background-color: rgb(236, 236, 236);
+	border: none;
+	margin-left: 5px;
+}
+
+#button1{
+	height: 30px;
+	width:20%;
+	background-color: #0000ff;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 5px;
+}

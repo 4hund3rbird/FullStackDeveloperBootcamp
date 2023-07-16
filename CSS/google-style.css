@@ -1,0 +1,60 @@
+.google{
+   
+    font-size: 120px;
+    font-weight:bolder;
+    letter-spacing:0px;
+    font-family: Arial;
+    text-align: center;
+    padding:200px 200px 10px 200px;
+}
+body{
+    background-color: rgba(245, 219, 199, 0.75);
+}
+#g{
+    color:rgba(193, 0, 0, 0.791);
+
+}
+#g:hover{
+    transform:rotateX(20deg);
+}
+#o{
+    color:rgb(255, 237, 45);
+}
+#oo{
+    color:rgb(55, 105, 255);
+}
+#gg{
+    color:rgb(0, 199, 20);
+}
+#l{
+    color:rgb(220, 34, 136);
+}
+#e{
+    color:rgb(13, 143, 95);
+}
+.search{
+    text-align: center;
+}
+#searchlink{
+    display:none;
+}
+#search{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 5px;
+    width: 350px;
+    height: 30px;
+}
+#search_button{
+    padding: 10px 13px;
+    border:2px black solid;
+    border-radius: 20px;
+    color:white;
+    font-size: 15px;
+    background-color: navy;
+}
+#search_button:hover{
+    color: navy;
+    background-color: white;
+}
+

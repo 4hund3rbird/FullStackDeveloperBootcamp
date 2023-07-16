@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color:white;
+    background-color:rgb(62, 5, 115);
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-family: comic Verdana, Geneva, Tahoma, sans-serif,Times;
+
+    text-decoration: white underline 2px;
+}
+p{
+    line-height: 2;
+}
+.photo{
+    
+    text-align: right;
+}
+.photo img{
+    width:50%;
+    height: 50%;
+    float:right;
+    border:1px solid;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.text{
+    width:50%;
+    text-align: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+}

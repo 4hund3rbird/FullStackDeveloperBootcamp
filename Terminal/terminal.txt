@@ -1,0 +1,11 @@
+ls - List of files in directories
+pwd - Print working directory
+cd - change directory
+cd .. to move up one directory
+cd directoryname/ ----> relative path.
+cd /a/directoryname/ ---->absolute path.
+cd ../.. - to back out two levels
+rm - permanently deletes the files
+rmdir
+
+flags are like arguments, can be accessed by man

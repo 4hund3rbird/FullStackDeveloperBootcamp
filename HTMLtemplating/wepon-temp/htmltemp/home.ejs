@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
+    <title>Eldenlords.com</title>
+</head>
+<body>
+    <style>
+        h1{
+            border: 1px solid darkolivegreen;
+            width: 80%;
+            margin: auto;
+            /* height: 2vh; */
+            color: darkolivegreen;
+            background-color: gainsboro;
+            text-align: center;
+        }
+        a{
+            color: black;
+            height: 50px;
+            background-color: white;
+            text-decoration: underline;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        body{
+            background-image: url('https://wallpapers.com/images/hd/elden-ring-legacy-dungeon-b1bkxhfv6ljyypui.jpg');
+        }
+
+        .container{
+            width: 70%;
+            height: 60vh;
+            padding: 20px;
+            margin: 40px auto;
+            background-color: gainsboro;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        span{
+            display: inline-block;
+            width: 230px;
+            height: 300px;
+            border: 1px solid darkolivegreen;
+            background-color: black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10px;
+        }
+
+    </style>
+
+    <h1>ELDEN LORDS</h1>
+
+    <div class="container">
+        
+    </div>
+
+    <script>
+
+        const container=document.querySelector('.container');
+       
+        list=['Margit : The Fell Omen','Godrik : The Grafted','Rennela : The Queen of the Full Moon','Starscourge Radahn']
+        paths=['/margit','/godrik','/rennela','/radahn']
+        urls=['https://external-preview.redd.it/9mINV3s9WaXGWI5huma3UXs_ZaMYYzVfsmY5uA_8ALI.jpg?auto=webp&s=6e122a67f8137984c838903d2b89cc7f5592c28d','https://64.media.tumblr.com/b1144c564d3d994cfdf7495e7b3b3581/3942f951b3507832-4e/s1280x1920/57991acf1d38efc3e894bacd47712f50445f3cea.png','https://pbs.twimg.com/media/FPRklWZXEAAkXnd.jpg','https://cdnb.artstation.com/p/assets/images/images/053/752/135/large/jiwen-6.jpg?1662970787']
+        
+        for(let i in list){
+            let card=document.createElement('span');
+            let label=document.createElement('a');
+            label.append(list[i])
+            card.style.backgroundImage=`url('${urls[i]}')`
+            card.style.backgroundSize='cover';
+            label.style.visibility='hidden';
+            label.href=paths[i];
+            card.appendChild(label);
+            container.appendChild(card);
+        }
+
+        const space=document.querySelectorAll('span');
+
+        for(let i of space){
+            i.addEventListener('mouseenter',()=>{
+                i.style.backdropFilter='blur(6px)';
+                i.firstChild.style.visibility='visible';
+                i.firstChild.style.animation='ease-in 2s';
+
+            })
+            i.addEventListener('mouseleave',()=>{
+                i.style.filter='blur(0px)';
+                i.firstChild.style.visibility='hidden';
+            })
+        }
+
+
+    </script>
+
+</body>
+
+</html>

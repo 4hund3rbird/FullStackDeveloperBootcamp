@@ -1,0 +1,8 @@
+Node js is a javascript runtime 
+i.e. it runs outside the browser
+
+node-repl
+-Read Evaluate Print Loop
+it is like a console window in terminal
+
+to run files in node enter node filename.js
